@@ -1,5 +1,6 @@
 {
-  "buildCommand": "bunx bun@1.3.14 install --frozen-lockfile && bun run build",
+  "installCommand": "bunx bun@1.3.14 install --frozen-lockfile",
+  "buildCommand": "bun run build",
   "outputDirectory": "dist",
   "framework": "vite"
 }
