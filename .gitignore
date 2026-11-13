@@ -1,0 +1,22 @@
+node_modules
+dist
+.env
+.env.*
+!.env.near.example
+.circle/
+.aws/
+.codex/
+.agents/
+.gitdata/
+recovery_file*
+contracts/out
+contracts/cache
+traces.jsonl
+console.jsonl
+
+# NEAR contract build artifacts
+contracts/near/target/
+contracts/near/target-wasm/
+contracts/near/target-wasm-repro/
+contracts/near/target-x86/
+contracts/near/test-target/
