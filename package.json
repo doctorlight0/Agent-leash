@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "test": "vitest run",
     "lint": "oxlint src/lib/near-config.ts src/lib/near-client.ts src/lib/near-transactions.ts src/lib/near-format.ts src/hooks/useNear.tsx src/hooks/useNearLeash.ts src/hooks/useNearSend.ts src/components/NearCreateLeash.tsx src/components/NearLeashList.tsx src/components/NearDashboard.tsx src/components/Header.tsx src/App.tsx src/main.tsx",
     "deploy:self": "bun run ./scripts/self-deploy.ts",

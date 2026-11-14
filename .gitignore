@@ -1,7 +1,5 @@
 node_modules
 dist
-.env
-.env.*
 !.env.near.example
 .circle/
 .aws/
@@ -20,3 +18,4 @@ contracts/near/target-wasm/
 contracts/near/target-wasm-repro/
 contracts/near/target-x86/
 contracts/near/test-target/
+config.bat
